@@ -5,6 +5,8 @@ section{
    min-height: 400px;
    width: 100%;
    position: relative;
+   background-repeat: no-repeat;
+   background-size: cover;
 }
 
 .brush-bottom{
@@ -35,18 +37,92 @@ section{
 section.konyv{
    background-image: url(img/bg-konyv.jpg);
    background-position: bottom center;
-   background-repeat: no-repeat;
    .brush-bottom{
       background-image: url(img/konyv-bottom-brush.png);
    }
+   .main-container{
+      text-align: center;
+      color: white;
+      a{
+         .logo-cont{
+            background-image: url(img/heni-logo.svg);
+            background-position: center;
+            background-repeat: no-repeat;
+            width: 73px;
+            height: 73px;
+            display: table;
+            margin: 63px auto;
+         }
+      }
+      p{
+         margin: 20px auto;
+         padding: 0 15px;
+         max-width: 510px;
+         text-align: center;
+         font-size: 18px;
+         font-family: 'EkMukta-Regular'
+      }
+      p.margin-bottom{
+         margin-bottom: 60px;
+      }
+      .book-container{
+         display: flex;
+         flex-direction: row;
+         justify-content: center;
+         .cell{
+            margin: 44px 20px;
+            max-width: 100%;
+            height: auto;
+         }
+      }
+   }
 }
+
+@media (max-width: 650px) {
+   section.konyv{
+      .main-container{
+         .book-container{
+            flex-direction: column;
+         }
+      }
+   }
+}
+
 
 // ---------------------------------------
 // vasarlas
 // ---------------------------------------
 
 section.vasarlas{
-
+   .main-container{
+      h2{
+         color: $darkblue;
+      }
+      .vasarlasi-infok{
+         text-align: center;
+         max-width: 510px;
+         margin: auto;
+         color: $darkblue;
+         h3{
+            font-size: 30px;
+         }
+         a{
+            color: $darkblue;
+            span{
+               font-weight: bold;
+            p{
+               padding: 0 15px;
+            }
+            }
+         }
+         a:hover{
+            text-decoration: underline;
+         }
+         p{
+            padding: 0 15px;
+         }
+      }
+   }
 }
 
 // ---------------------------------------

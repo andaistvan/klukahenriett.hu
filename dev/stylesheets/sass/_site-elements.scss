@@ -12,7 +12,13 @@ body{
 }
 
 .main-container{
-   width: 90%;
+   max-width: 960px;
+   margin: 0 auto;
+   padding-top: 58px;
+   padding-bottom: 58px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
 }
 
 // ---------------------------------------

@@ -45,7 +45,7 @@
 <div id="page" class="site">
 
 	<header id="masthead" class="site-header" role="banner">
-      <div class="main-container">
+      <!-- <div class="main-container"> -->
 
          <!-- SITE BRANDING -->
          <?php
@@ -82,7 +82,8 @@
          <!-- <button type="button" class="button" id="mobil-button" data-toggle="offCanvas">Menü</button> -->
          <!-- off canvas toggle -->
 
-      </div><!-- main-container -->
+      <!-- </div> -->
+      <!-- main-container -->
 	</header><!-- #masthead -->
 
 	<div id="content" class="site-content">
