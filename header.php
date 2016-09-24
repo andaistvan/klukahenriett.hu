@@ -15,7 +15,8 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  */
-?><!DOCTYPE html>
+?>
+<!-- <!DOCTYPE html> -->
 <html <?php language_attributes(); ?>>
 <head>
 <meta charset="<?php bloginfo('charset'); ?>">

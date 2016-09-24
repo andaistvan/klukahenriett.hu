@@ -1,0 +1,81 @@
+@font-face {
+	font-family:'Buenard-Regular';
+	src: url('fonts/Buenard-Regular.eot');
+	src: url('fonts/Buenard-Regular.eot?#iefix') format('embedded-opentype'),
+		url('fonts/Buenard-Regular.woff') format('woff'),
+		url('fonts/Buenard-Regular.ttf') format('truetype'),
+		url('fonts/Buenard-Regular.svg#Buenard-Regular') format('svg');
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-2212;
+}
+
+@font-face {
+	font-family:'Buenard-Bold';
+	src: url('fonts/Buenard-Bold.eot');
+	src: url('fonts/Buenard-Bold.eot?#iefix') format('embedded-opentype'),
+		url('fonts/Buenard-Bold.woff') format('woff'),
+		url('fonts/Buenard-Bold.ttf') format('truetype'),
+		url('fonts/Buenard-Bold.svg#Buenard-Bold') format('svg');
+	font-weight: 700;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-2212;
+}
+
+@font-face {
+	font-family:'EkMukta-Light';
+	src: url('fonts/EkMukta-Light.eot');
+	src: url('fonts/EkMukta-Light.eot?#iefix') format('embedded-opentype'),
+		url('fonts/EkMukta-Light.woff') format('woff'),
+		url('fonts/EkMukta-Light.ttf') format('truetype'),
+		url('fonts/EkMukta-Light.svg#EkMukta-Light') format('svg');
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+000D-FB06;
+}
+
+@font-face {
+	font-family:'EkMukta-Regular';
+	src: url('fonts/EkMukta-Regular.eot');
+	src: url('fonts/EkMukta-Regular.eot?#iefix') format('embedded-opentype'),
+		url('fonts/EkMukta-Regular.woff') format('woff'),
+		url('fonts/EkMukta-Regular.ttf') format('truetype'),
+		url('fonts/EkMukta-Regular.svg#EkMukta-Regular') format('svg');
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+000D-FB06;
+}
+
+@font-face {
+	font-family:'EkMukta-Bold';
+	src: url('fonts/EkMukta-Bold.eot');
+	src: url('fonts/EkMukta-Bold.eot?#iefix') format('embedded-opentype'),
+		url('fonts/EkMukta-Bold.woff') format('woff'),
+		url('fonts/EkMukta-Bold.ttf') format('truetype'),
+		url('fonts/EkMukta-Bold.svg#EkMukta-Bold') format('svg');
+	font-weight: 700;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+000D-FB06;
+}
+
+body{
+   font-family: 'EkMukta-Light';
+   font-size: 16px;
+   color: $textgray;
+   letter-spacing: 0px;
+}
+
+h1{
+   font-family: 'Buenard-Regular';
+   font-size: 50px;
+}
+
+h2{
+   font-family: 'Buenard-Bold';
+   font-size: 40px;
+}

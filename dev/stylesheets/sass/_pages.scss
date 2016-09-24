@@ -1,0 +1,89 @@
+// ---------------------------------------
+// globals
+// ---------------------------------------
+section{
+   min-height: 400px;
+   width: 100%;
+   position: relative;
+}
+
+.brush-bottom{
+   background-position: bottom center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   position: absolute;
+   bottom: 0px;
+   height: 58px;
+   width: 100%;
+}
+
+.brush-top{
+   background-position: top center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   position: absolute;
+   top: 0px;
+   height: 58px;
+   width: 100%;
+}
+
+
+// ---------------------------------------
+// könyv
+// ---------------------------------------
+
+section.konyv{
+   background-image: url(img/bg-konyv.jpg);
+   background-position: bottom center;
+   background-repeat: no-repeat;
+   .brush-bottom{
+      background-image: url(img/konyv-bottom-brush.png);
+   }
+}
+
+// ---------------------------------------
+// vasarlas
+// ---------------------------------------
+
+section.vasarlas{
+
+}
+
+// ---------------------------------------
+// hirek
+// ---------------------------------------
+
+section.hirek{
+   background-image: url(img/bg-hirek.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   .brush-top{
+      background-image: url(img/hirek-top-brush.png);
+   }
+   .brush-bottom{
+      background-image: url(img/hirek-bottom-brush.png);
+   }
+}
+
+
+// ---------------------------------------
+// letoltes
+// ---------------------------------------
+
+section.letoltes{
+
+}
+
+
+// ---------------------------------------
+// bio
+// ---------------------------------------
+
+section.bio{
+   background-image: url(img/bg-bio.jpg);
+   background-position: top center;
+   background-repeat: no-repeat;
+   .brush-top{
+      background-image: url(img/bio-top-brush.png);
+   }
+}

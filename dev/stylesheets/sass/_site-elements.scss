@@ -1,6 +1,16 @@
 // ---------------------------------------
 // globals
 // ---------------------------------------
+body{
+   background: $mainbg;
+   max-width: 1800px;
+   margin: 0 auto;
+}
+
+#page.site{
+   background: $mainbg;
+}
+
 .main-container{
    width: 90%;
 }
