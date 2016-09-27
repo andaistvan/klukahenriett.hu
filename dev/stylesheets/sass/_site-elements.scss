@@ -29,3 +29,36 @@ body{
 // ---------------------------------------
 // footer
 // ---------------------------------------
+
+footer#colophon.site-footer{
+    z-index: 99;
+    position: absolute;
+    bottom: 0;
+    height: 140px;
+    width: 100%;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    .main-container{
+      padding: 18px 0 0 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      p{
+         color: white;
+         font-size: 14px;
+         text-align: center;
+      }
+      #social-media{
+         display: flex;
+         flex-direction: row;
+         justify-content: space-around;
+         align-items: center;
+         a{
+            img{
+               margin: 0 22px;
+            }
+         }
+      }
+   }
+}

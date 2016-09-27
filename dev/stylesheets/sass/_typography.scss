@@ -80,9 +80,32 @@ h2{
    font-family: 'Buenard-Bold';
    font-size: 40px;
    text-align: center;
+   color: $darkblue;
 }
 
 h3{
    font-family: 'Buenard-Bold';
    font-size: 22px;
+}
+
+p{
+   font-family: 'EkMukta-Light';
+   font-size: 16px;
+   color: $textgray;
+   letter-spacing: 0px;
+   span{
+      font-weight: bold;
+   }
+}
+
+a{
+   font-family: 'EkMukta-Regular';
+   font-size: 16px;
+   color: $lightblue;
+   letter-spacing: 0px;
+}
+
+a:hover{
+   color: $darkblue;
+   transition: color 0.3s;
 }

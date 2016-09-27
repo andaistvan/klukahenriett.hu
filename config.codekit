@@ -236,6 +236,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/dev\/img\/heni-foto.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 78864,
+		"inputAbbreviatedPath": "\/dev\/img\/heni-foto.jpg",
+		"outputAbbreviatedPath": "\/dev\/img\/heni-foto.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/dev\/img\/hirek-bottom-brush.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -5207,6 +5218,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/style.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/template-parts\/content-home.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/template-parts\/content-home.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

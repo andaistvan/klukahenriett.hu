@@ -135,6 +135,8 @@ function klukahenriett_scripts()
 }
 add_action('wp_enqueue_scripts', 'klukahenriett_scripts');
 
+// ninjaforms
+
 /**
  * Implement the Custom Header feature.
  */
