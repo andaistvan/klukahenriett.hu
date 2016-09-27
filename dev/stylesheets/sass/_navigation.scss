@@ -122,26 +122,28 @@ nav#site-navigation.main-navigation.sticky{
    background: $darkblue !important;
 }
 
-.off-canvas-wrapper {
-  height: 100%;
-  overflow: hidden;
-}
-
-.off-canvas-wrapper-inner {
-  height: 100%;
-}
-
-.off-canvas-content {
-  overflow-y: auto;
-}
-
-.off-canvas {
-  height: 100%;
-}
-
-.off-canvas-content {
-  height: 100%;
-}
+// scroll to the top issue
+// .off-canvas-wrapper {
+//   height: 100%;
+//   overflow: hidden;
+// }
+//
+// .off-canvas-wrapper-inner {
+//   height: 100%;
+// }
+//
+// .off-canvas-content {
+//   overflow-y: auto;
+// }
+//
+// .off-canvas {
+//   height: 100%;
+// }
+//
+// .off-canvas-content {
+//   height: 100%;
+// }
+// scroll to the top issue
 
 section#nav_menu-4.widget.widget_nav_menu{
    background: $darkblue;

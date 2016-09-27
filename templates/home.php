@@ -189,6 +189,11 @@ Template Name: home
             <?php endwhile; ?>
          </ul>
 
+      <a id="osszes-hir" href="http://klukahneriett.com/hirek">
+         <p>
+            Tovább az összes hírhez
+         </p>
+      </a>
 
       </div><!-- main-container -->
 
@@ -200,7 +205,6 @@ Template Name: home
       <a id="letoltes-section"></a>
       <div class="main-container">
          <h2>Letöltések</h2>
-         <?php dynamic_sidebar('offcanvas_widget'); ?><!-- off-canvas menu -->
 
       </div><!-- main-container -->
    </section><!-- letoltes **************************************** -->
@@ -247,6 +251,20 @@ Template Name: home
 
 
 
+      <section class="footer2">
+         <div class="main-container">
+            <p>
+               ©<?php echo date('Y'); ?> Kluka Henriett
+            </p>
+            <div id="social-media">
+               <a href="mailto:info@klukahenriett.com"><img src="<?php bloginfo('template_url'); ?>/dev/img/icon-mail.svg" alt="e-mail ikon" /></a>
+               <a href="#"><img src="<?php bloginfo('template_url'); ?>/dev/img/icon-facebook.svg" alt="facebook ikon" /></a>
+               <a href="#"><img src="<?php bloginfo('template_url'); ?>/dev/img/icon-twitter.svg" alt="twitter ikon" /></a>
+               <a href="#"><img src="<?php bloginfo('template_url'); ?>/dev/img/icon-googleplus.svg" alt="google plus ikon" /></a>
+               <a href="#"><img src="<?php bloginfo('template_url'); ?>/dev/img/icon-instagram.svg" alt="instagram ikon" /></a>
+            </div>
+         </div>
+      </section><!-- section footer2 -->
    </section><!-- bio **************************************** -->
 
 </div><!-- page-content -->
