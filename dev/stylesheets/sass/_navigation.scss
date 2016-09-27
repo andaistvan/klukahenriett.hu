@@ -1,13 +1,176 @@
 // ---------------------------------------
-// off canvas
-// ---------------------------------------
-
-
-// ---------------------------------------
 // main nav
 // ---------------------------------------
+nav#site-navigation.main-navigation{
+   .menu-menu-1-container{
+      button#mobil-button.button{
+         display: none;
+      }
+      ul#primary-menu.menu{
+         display: flex;
+         flex-direction: row;
+         justify-content: center;
+         li{
+            a{
+               font-family:'EkMukta-Bold';
+               color: white;
+               font-size: 16px;
+               margin: 10px 45px 0 45px;
+               text-transform: uppercase;
+               letter-spacing: 1.5px;
+            }
+            a:hover{
+               transition: all 0.3s ease-out;
+               color: $lightblue;
+            }
+         }
+         li.current-menu-item{
+            a{
+               color: $lightblue;
+            }
+         }
+      }
+   }
+}
 
+// STICKY
+.sticky {
+    top: 0;
+    position: fixed;
+    width: 100%;
+    background: white;
+   //  color: $darkblue;
+}
+
+nav#site-navigation.main-navigation.sticky{
+   .menu-menu-1-container{
+      ul#primary-menu.menu{
+         display: flex;
+         flex-direction: row;
+         justify-content: center;
+         align-items: center;
+         background: white;
+         height: 50px;
+         li{
+            a{
+               color: $darkblue;
+               margin-top: 0;
+               padding-top:0;
+               margin-bottom: 0;
+               padding-bottom:0;
+            }
+         }
+      }
+   }
+}
+
+@media (max-width:900px) {
+   nav#site-navigation.main-navigation,
+   nav#site-navigation.main-navigation.sticky{
+      .menu-menu-1-container{
+         ul#primary-menu.menu{
+            li{
+               a{
+                  padding-top:0;
+                  padding-bottom:0;
+                  margin: 0 15px;
+               }
+            }
+         }
+      }
+   }
+}
 
 // ---------------------------------------
 // mobil nav
 // ---------------------------------------
+@media (max-width:660px) {
+   nav#site-navigation.main-navigation,
+   nav#site-navigation.main-navigation.sticky{
+      .menu-menu-1-container{
+         display: none;
+
+      }
+      button#mobil-button.button{
+         display: table;
+            width: 100%;
+            height: 70px;
+            font-size: 30px;
+            font-family:'EkMukta-Bold';
+            text-transform: uppercase;
+            margin-bottom: 0px;
+            background: white;
+            border: none;
+            color: $darkblue;
+      }
+   }
+}
+@media (min-width:660px) {
+   nav#site-navigation.main-navigation,
+   nav#site-navigation.main-navigation.sticky{
+      button#mobil-button.button{
+         display: none;
+      }
+   }
+}
+
+// ---------------------------------------
+// off canvas
+// ---------------------------------------
+
+.off-canvas{
+   background: $darkblue !important;
+}
+
+.off-canvas-wrapper {
+  height: 100%;
+  overflow: hidden;
+}
+
+.off-canvas-wrapper-inner {
+  height: 100%;
+}
+
+.off-canvas-content {
+  overflow-y: auto;
+}
+
+.off-canvas {
+  height: 100%;
+}
+
+.off-canvas-content {
+  height: 100%;
+}
+
+section#nav_menu-4.widget.widget_nav_menu{
+   background: $darkblue;
+}
+
+ul#menu-offcanvas-nav.menu{
+   list-style-type: circle;
+   color: white;
+   padding-right: 20px;
+   li{
+      display: block;
+      border-bottom: 0px solid #F4F4F4;
+      a{
+         font-size: 25px;
+         color: white;
+         line-height: 1.5em;
+         text-transform: uppercase;
+         text-align: right;
+      }
+      a:hover{
+         color: $lightblue;
+         transition: all 0.2s;
+      }
+   }
+   li:first-child{
+      margin-top: 10px;
+   }
+   li:last-child{
+      border-bottom: none;
+      margin-bottom: 10px;
+   }
+}

@@ -43,6 +43,7 @@ section{
 section.konyv{
    background-image: url(img/bg-konyv.jpg);
    background-position: bottom center;
+   padding-top: 160px;
    .brush-bottom{
       background-image: url(img/konyv-bottom-brush.png);
    }
@@ -85,6 +86,12 @@ section.konyv{
             height: auto;
          }
       }
+   }
+}
+
+@media (max-width:660px){
+   section.konyv{
+      padding-top: 60px;
    }
 }
 
@@ -595,27 +602,3 @@ section.bio{
       }
    }
 }
-
-
-// @media (max-width: 740px){
-//    section.bio{
-//       .main-container{
-//          #bio-cont{
-//             .layer2{
-//                .textbox-outer{
-//                   .bio-text{
-//                      width: 50%;
-//                   }
-//                }
-//             }
-//             .layer1{
-//                .img-cont-outer{
-//                   .bio-img-cont{
-//
-//                   }
-//                }
-//             }
-//          }
-//       }
-//    }
-// }

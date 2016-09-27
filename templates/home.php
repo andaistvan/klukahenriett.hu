@@ -58,6 +58,7 @@ Template Name: home
 
 
    <section class="vasarlas">
+      <a id="vasarlas-section"></a>
 
       <div class="main-container">
          <h2>Vásárlás</h2>
@@ -148,6 +149,7 @@ Template Name: home
 
 
    <section class="hirek">
+      <a id="hirek-section"></a>
       <div class="brush-top"></div>
 
       <div class="main-container">
@@ -195,14 +197,17 @@ Template Name: home
 
 
    <section class="letoltes">
+      <a id="letoltes-section"></a>
       <div class="main-container">
          <h2>Letöltések</h2>
+         <?php dynamic_sidebar('offcanvas_widget'); ?><!-- off-canvas menu -->
 
       </div><!-- main-container -->
    </section><!-- letoltes **************************************** -->
 
 
    <section class="bio">
+      <a id="bio-section"></a>
       <div class="brush-top"></div>
 
       <div class="main-container">
